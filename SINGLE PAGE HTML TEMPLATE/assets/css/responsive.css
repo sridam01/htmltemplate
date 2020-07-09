@@ -1,0 +1,86 @@
+/* medium Layout 1140px*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+
+
+}
+/* Table Device 768px*/
+@media only screen and (min-width:768px ) and (max-width: 991px) {
+	.main-title.counter-title h3::after, .main-title.protfolio-title h3::after, .main-title.resume-title h3::after, .main-title.service-title h3::after, .main-title.testimonial-title h3::after, .main-title.testimonial-title h3::after {
+	
+	display: none;
+}
+html {
+	font-size: 60.5%;
+}
+
+}
+/* small mobile 320px*/
+@media only screen and (max-width: 767px) {
+.nav-menu {
+	display: none;
+	visibility: hidden;
+}
+.menu-triger {
+  display: block;
+  top: 24px
+}
+.main-title.counter-title h3::after, .main-title.protfolio-title h3::after, .main-title.resume-title h3::after, .main-title.service-title h3::after, .main-title.testimonial-title h3::after, .main-title.testimonial-title h3::after {
+	display: none;
+}
+.main-title h3::after {
+	display: none;
+}
+
+html {
+	font-size: 56.5%;
+}
+.resume.area::after {
+	display: none;
+}
+.single-resume-item h3 span::before {
+	display: none;
+}
+.single-resume-item h3 span::after {
+	display: none;
+}
+.single-resume-item {
+	margin-right:0 ;
+	margin-bottom: 20px;
+
+}
+.protfolio-menu ul li {;
+	font-size: 1.4rem;
+	padding: 1rem;
+}
+.single-counter-item {;
+	margin-bottom: 25px;
+}
+.single-blog-item {
+	margin-bottom: 20px;
+}
+.single-contact-list {
+	text-align: center;
+	margin-bottom: 1.6rem;
+}
+.hero-text h1 {
+	font-size: 4rem;
+}
+a.logo::after {
+	left: 67%;
+}
+}
+/* wide mobile layour 480px */
+@media only screen and (min-width: 480px) and (max-width:767px) {
+.nav-menu {
+	display: none;
+	visibility: hidden;
+}
+.menu-triger {
+  display: block;
+  top: 24px
+}
+
+
+
+}
